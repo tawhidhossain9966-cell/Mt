@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title-tag">MT Shop</title>
+    <!-- Tailwind CSS for Beautiful Design -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white py-4 shadow-lg sticky top-0 z-40">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 id="site-name" class="text-2xl font-black tracking-wider">MT Shop</h1>
+            <nav id="header-menu" class="space-x-4 text-sm font-medium">
+                <a href="#home" class="hover:text-yellow-300 transition">হোম</a>
+                <a href="#details" class="hover:text-yellow-300 transition">বিস্তারিত</a>
+                <a href="#order" class="bg-yellow-400 text-gray-900 px-4 py-2 rounded-full font-bold hover:bg-yellow-300 transition shadow">অর্ডার করুন</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Product Section -->
+    <main id="home" class="container mx-auto px-4 py-10 max-w-4xl">
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-purple-100">
+            <!-- Product Image -->
+            <div class="relative bg-purple-50 flex justify-center items-center p-6">
+                <img id="prod-img" src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=600" alt="Product Image" class="rounded-2xl max-h-[450px] object-cover shadow-md transition-transform duration-300 hover:scale-105">
+                <span class="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider animate-pulse">Stock Ready</span>
+            </div>
+
+            <!-- Product Body -->
+            <div class="p-6 md:p-10 space-y-6">
+                <div class="border-b border-gray-100 pb-4">
+                    <span class="text-sm font-semibold text-purple-600 bg-purple-50 px-3 py-1 rounded-md">Product Code: <span id="prod-code">3640</span></span>
+                </div>
+                
+                <!-- Description -->
+                <div id="prod-desc" class="prose max-w-none text-gray-700 leading-relaxed space-y-4 text-base md:text-lg">
+                    <p class="font-bold text-xl text-purple-700">🎨 আপনার সোনামণির সৃজনশীলতা বাড়াতে দারুণ একটি উপহার! 🎁 Little Hands Drawing Projector Table 🖍</p>
+                    <p>বাচ্চারা কি সারাদিন মোবাইল নিয়ে পড়ে থাকে? খেলার ছলে তাদের ছবি আঁকা শেখাতে ও মেধা বিকাশে নিয়ে নিন এই চমৎকার "Trace and Draw Projector Toy"! এটি আপনার ছোট্ট সোনামণিকে পরিণত করবে দারুণ এক শিল্পীতে! 🌟</p>
+                    <h3 class="text-lg font-bold text-gray-900 mt-4">✨ কেন এই ড্রয়িং প্রজেক্টরটি আপনার শিশুর জন্য সেরা?</h3>
+                    <ul class="list-none space-y-2 pl-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i><b>মজার ও সহজ ড্রয়িং:</b> প্রজেক্টরটি চালু করে স্লাইড বসালেই নিচে চমৎকার সব ছবি ফুটে উঠবে। সেই আলো দেখে দেখে বাচ্চারা খুব সহজেই ট্রেস করতে ও রঙ করতে পারবে।</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i><b>মেধা বিকাশ:</b> এটি শিশুদের কল্পনাশক্তি, সৃজনশীলতা, রঙ চেনার ক্ষমতা এবং 'হ্যান্ড-আই কোঅর্ডিনেশন' দারুণভাবে বাড়িয়ে তুলবে।</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i><b>১০০% নিরাপদ উপাদান:</b> উন্নতমানের ও টেকসই ABS প্লাস্টিক দিয়ে তৈরি, যার প্রান্তগুলো একদম মসৃণ। এর সাথে থাকা কালার পেনগুলো সম্পূর্ণ বিষমুক্ত (Non-toxic), তাই বাচ্চাদের জন্য একদম নিরাপদ।</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i><b>পারফেক্ট গিফট:</b> জন্মদিন, ঈদ বা যেকোনো বিশেষ দিনে ৩ বছর বা তার বেশি বয়সী শিশুদের চমকে দেওয়ার মতো একটি উপহার!</li>
+                    </ul>
+                    <p class="font-medium bg-gray-100 p-3 rounded-lg border-l-4 border-purple-500">📏 পণ্যের সাইজ: ২৫ x ০.০৩ x ৩৫.৫ সেমি।</p>
+                    <p class="text-center text-purple-600 font-bold text-xl mt-6">আপনার শিশুর শৈশব হোক আরও রঙিন ও আনন্দময়! আজই আপনার ছোট্ট শিল্পীর হাতে তুলে দিন এই দারুণ খেলনাটি।</p>
+                </div>
+
+                <!-- Order Button Section -->
+                <div id="order" class="pt-6 text-center">
+                    <button onclick="openPopup()" class="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-black text-xl px-12 py-4 rounded-2xl shadow-lg transform transition active:scale-95 hover:shadow-xl">
+                        <i class="fas fa-shopping-cart mr-2"></i> এখনই অর্ডার করুন
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 🌟 Pop-up / Order Modal 🌟 -->
+    <div id="order-popup" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex justify-center items-center p-4 transition-opacity duration-300">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl relative border-2 border-pink-400 transform scale-95 transition-transform duration-300 overflow-y-auto max-h-[90vh]">
+            <button onclick="closePopup()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl"><i class="fas fa-times"></i></button>
+            
+            <div class="text-center space-y-2 mb-6">
+                <div class="text-4xl">🛍️</div>
+                <h3 class="text-2xl font-black text-gray-900">আপনি কি অর্ডার করতে চান?</h3>
+                <p class="text-sm text-gray-500">নিচের ফর্মে আপনার সঠিক তথ্য দিয়ে অর্ডারটি কনফার্ম করুন।</p>
+            </div>
+
+            <!-- Order Form -->
+            <form onsubmit="submitOrder(event)" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-1">আপনার নাম</label>
+                    <input type="text" required placeholder="উদাঃ মোঃ রহিম" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-1">মোবাইল নাম্বার</label>
+                    <input type="tel" required placeholder="উদাঃ 017XXXXXXXX" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-1">পূর্ণ ঠিকানা</label>
+                    <textarea required rows="2" placeholder="গ্রাম/রোড, থানা, জেলা" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:outline-none"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3.5 rounded-xl shadow-md transition transform active:scale-95">
+                    অর্ডারটি নিশ্চিত করুন 
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Hidden Admin Access Hint (Press Ctrl + Shift + A or Click Site Title 5 times) -->
+    <footer class="text-center py-6 text-xs text-gray-400">
+        &copy; 2026 MT Shop. All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript logic -->
+    <script>
+        // Load Saved Data
+        window.onload = function() {
+            if(localStorage.getItem('siteName')) {
+                document.getElementById('site-name').innerText = localStorage.getItem('siteName');
+                document.getElementById('site-title-tag').innerText = localStorage.getItem('siteName');
+            }
+            if(localStorage.getItem('prodImg')) document.getElementById('prod-img').src = localStorage.getItem('prodImg');
+            if(localStorage.getItem('prodCode')) document.getElementById('prod-code').innerText = localStorage.getItem('prodCode');
+            if(localStorage.getItem('prodDesc')) document.getElementById('prod-desc').innerHTML = localStorage.getItem('prodDesc');
+            
+            // Automatic Pop-up after 3 seconds when visitor enters site
+            setTimeout(() => {
+                openPopup();
+            }, 3000);
+        }
+
+        function openPopup() {
+            const popup = document.getElementById('order-popup');
+            popup.classList.remove('hidden');
+        }
+
+        function closePopup() {
+            document.getElementById('order-popup').classList.add('hidden');
+        }
+
+        function submitOrder(e) {
+            e.preventDefault();
+            alert('ধন্যবাদ! আপনার অর্ডারটি সফলভাবে নেওয়া হয়েছে।');
+            closePopup();
+        }
+
+        // Hidden Admin Trigger: Click the Header Site Name 5 times to open admin
+        let clickCount = 0;
+        document.getElementById('site-name').addEventListener('click', () => {
+            clickCount++;
+            if (clickCount === 5) {
+                clickCount = 0;
+                let password = prompt("অ্যাডমিন পাসওয়ার্ড দিন:");
+                if (password === "admin123") { // আপনার গোপন পাসওয়ার্ড
+                    window.location.href = 'admin.html';
+                } else {
+                    alert("ভুল পাসওয়ার্ড!");
+                }
+            }
+        });
+    </script>
+</body>
+</html>
